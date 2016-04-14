@@ -1,3 +1,5 @@
+# ipics [![Build Status](https://travis-ci.org/ingve/ipics.svg?branch=master)](https://travis-ci.org/ingve/ipics)
+
 > Search for thumbnails and images for Itunes media
 
 ## Install
