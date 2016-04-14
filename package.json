@@ -1,0 +1,27 @@
+{
+  "name": "ipics",
+  "version": "0.0.1",
+  "description": "Search for thumbnails and images for Itunes media",
+  "main": "index.js",
+  "engines": {
+    "node": ">=5"
+  },
+  "scripts": {
+    "test": "ava"
+  },
+  "keywords": [
+  "itunes",
+  "thumbnails",
+  "images"
+  ],
+  "author": "Ingve Vormestrand",
+  "license": "MIT",
+  "dependencies": {
+    "got": "^6.3.0",
+    "meow": "^3.7.0",
+    "query-string": "^4.1.0"
+  },
+  "devDependencies": {
+    "ava": "^0.14.0"
+  }
+}

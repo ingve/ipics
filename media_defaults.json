@@ -1,0 +1,38 @@
+{
+  "ios-app": {
+    "size": 512,
+    "media": "software",
+    "entity": "software",
+    "name": "trackName"
+  },
+  "mac-app": {
+    "size": 512,
+    "media": "software",
+    "entity": "macSoftware",
+    "name": "trackName"
+  },
+  "album": {
+    "size": 600,
+    "media": "music",
+    "entity": "album",
+    "name": "collectionName"
+  },
+  "movie": {
+    "size": 600,
+    "media": "movie",
+    "entity": "movie",
+    "name": "trackName"
+  },
+  "tv-show": {
+    "size": 600,
+    "media": "tvShow",
+    "entity": "tvSeason",
+    "name": "collectionName"
+  },
+  "book": {
+    "size": 600,
+    "media": "ebook",
+    "entity": "ebook",
+    "name": "trackName"
+  }
+}
