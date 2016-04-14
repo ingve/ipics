@@ -1,4 +1,4 @@
-> Search for images for Itunes media
+> Search for thumbnails and images for Itunes media
 
 ## Install
 
@@ -12,9 +12,11 @@ $ npm install --save ipics
 const ipics = require('ipics');
 
 ipics('sidologie', 'album');
-//=> [ { name: 'Sidologie',
+/*
+=> [ { name: 'Sidologie',
     thumbnailUrl: 'http://is5.mzstatic.com/image/thumb/Music3/v4/46/47/c2/4647c28d-d4d1-6e3b-a9f4-1b87b749b3a3/source/100x100bb.jpg',
     imageUrl: 'http://is5.mzstatic.com/image/thumb/Music3/v4/46/47/c2/4647c28d-d4d1-6e3b-a9f4-1b87b749b3a3/source/600x600bb.jpg' } ]
+*/
 ```
 
 ## API
