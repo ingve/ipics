@@ -9,6 +9,10 @@
   "scripts": {
     "test": "ava"
   },
+  "files": [
+    "index.js",
+    "media_defaults.json"
+  ],
   "keywords": [
   "itunes",
   "thumbnails",

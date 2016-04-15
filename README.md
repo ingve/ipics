@@ -38,6 +38,7 @@ Returns a Promise that resolves to an array of objects with links to thumbnails 
 
 ## Related
 
+- [ipics-cli](https://github.com/ingve/ipics-cli) - CLI for this module.
 - [Images from the iTunes/App/Mac App Stores](http://leancrew.com/all-this/2016/03/images-from-the-itunes-app-mac-app-stores/) (Python)
 - [iTunes Artwork Finder](https://bendodson.com/projects/itunes-artwork-finder/) ([PHP](https://github.com/bendodson/itunes-artwork-finder))
 
