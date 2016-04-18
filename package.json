@@ -14,13 +14,14 @@
     "media_defaults.json"
   ],
   "keywords": [
-  "itunes",
-  "thumbnails",
-  "images"
+    "itunes",
+    "thumbnails",
+    "images"
   ],
   "author": "Ingve Vormestrand",
   "license": "MIT",
   "dependencies": {
+    "array-includes": "^3.0.2",
     "got": "^6.3.0",
     "meow": "^3.7.0",
     "query-string": "^4.1.0"

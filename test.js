@@ -23,3 +23,21 @@ test('Values for url keys are HTTPish', async t => {
   t.regex(imageUrl, HTTPish);
   t.regex(thumbnailUrl, HTTPish);
 });
+
+test('Invalid media types are rejected', async t => {
+  t.throws(ipics('ou812', 'bogus'));
+});
+
+test('Valid media types are not rejected', async t => {
+  t.notThrows(ipics('omnifocus', 'ios-app'));
+});
+
+test('Media types are not case sensitive', async t => {
+  t.notThrows(ipics('omnifocus', 'IoS-ApP'));
+});
+
+test('Returns an empty array when no search results are returned', async t => {
+  const results = await ipics('901AE37CF2484E7BAEEC3FBBAF51AE17', 'album');
+  t.true(Array.isArray(results));
+  t.true(results.length === 0);
+});
