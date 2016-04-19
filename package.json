@@ -1,6 +1,6 @@
 {
   "name": "ipics",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Search for thumbnails and images for Itunes media",
   "main": "index.js",
   "engines": {
