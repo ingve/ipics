@@ -1,7 +1,8 @@
 {
   "name": "ipics",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Search for thumbnails and images for Itunes media",
+  "repository": "https://github.com/ingve/ipics",
   "main": "index.js",
   "engines": {
     "node": ">=5"
